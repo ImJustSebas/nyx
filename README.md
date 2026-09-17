@@ -2,7 +2,7 @@
 
 Un launcher de aplicaciones minimalista con tema Dracula, hecho en Python y GTK3 (PyGObject). Pensado como alternativa a Rofi para entornos como i3wm, aunque también funciona en escritorios GNOME.
 
-![Captura de Nyx](ejemplo.png)
+![Captura de Nyx](ejemplo1.png)
 
 ## Qué hace
 
