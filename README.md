@@ -6,9 +6,9 @@ Un launcher de aplicaciones minimalista con tema Dracula, hecho en Python y GTK3
 
 ## Qué hace
 
-Nyx lee los archivos `.desktop` disponibles en `/usr/share/applications` y `~/.local/share/applications`, y te muestra una ventana centrada con un campo de búsqueda que filtra las aplicaciones en vivo mientras escribís. Al seleccionar una app (con el mouse o con las flechas del teclado) y presionar Enter, la ejecuta directamente.
+Nyx lee los archivos `.desktop` disponibles en las rutas estándar de datos de XDG, incluyendo las aplicaciones instaladas mediante Snap y Flatpak, y te muestra una ventana centrada con un campo de búsqueda que filtra las aplicaciones en vivo mientras escribís. Si encuentra un archivo `.desktop` mal formado o corrupto, lo saltea y continúa escaneando el resto. Al seleccionar una app (con el mouse o con las flechas del teclado) y presionar Enter, la ejecuta directamente.
 
-Antes de listar una aplicación, Nyx verifica que su comando exista realmente en el sistema, así que no vas a ver entradas rotas que fallen al ejecutarlas.
+Antes de listar una aplicación, Nyx verifica que su comando exista realmente en el sistema, así que no vas a ver entradas rotas que fallen al ejecutarlas. Además, muestra todos los íconos en un tamaño consistente, tanto si vienen definidos por nombre de tema como si usan una ruta de archivo absoluta.
 
 El estilo visual sigue la paleta Dracula:
 - Fondo: `#282a36`
