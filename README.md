@@ -97,7 +97,3 @@ También podés hacerlo desde terminal con `gsettings`, aunque el método gráfi
 ## Personalización
 
 El estilo visual está definido en `style.css`, en la misma carpeta que `launcher.py`. Podés editar los colores, tipografía y espaciados directamente ahí si querés ajustar el tema a tu gusto.
-
-## Licencia
-
-Agregá aquí la licencia que quieras usar para el proyecto (MIT, GPL, etc.).
