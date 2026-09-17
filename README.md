@@ -68,6 +68,18 @@ Y reemplazala por la ruta a Nyx en tu sistema:
 bindsym $mod+d exec /ruta/completa/a/nyx/launcher.py
 ```
 
+Para quitar la decoración y tratarlo como una ventana flotante, añadí esta regla a `~/.config/i3/config`:
+
+```
+for_window [class="DraculaLauncher"] border none, floating enable, resize set 480 400, move position center
+```
+
+Después de guardar, recargá i3:
+
+```bash
+i3-msg reload
+```
+
 Recordá usar la ruta absoluta (por ejemplo `/home/tu_usuario/nyx/launcher.py`), ya que i3 no siempre resuelve rutas relativas o con `~`.
 
 Después de guardar el archivo, recargá la configuración de i3 sin cerrar sesión:
